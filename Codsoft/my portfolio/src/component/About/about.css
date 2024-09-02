@@ -1,0 +1,64 @@
+#about .container {
+  padding: 70px 60px;
+  color: rgb(53, 52, 52);
+}
+#about .container .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#about .container .row .about-col-1 {
+  width: 350px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  padding: 10px;
+}
+#about .container .row .about-col-1 img {
+  width: 100%;
+  border-radius: 15px;
+  border: 2px rgba(83, 146, 181, 0.7137254902) solid;
+}
+#about .container .row .about-col-2 {
+  flex-basis: 60%;
+}
+#about .container .row .about-col-2 .sun-tittle {
+  font-size: 60px;
+  font-weight: 600;
+}
+#about .container .row .about-col-2 .tab-titles {
+  display: flex;
+  margin: 20px 0 20px;
+  gap: 40px;
+}
+#about .container .row .about-col-2 .tab-titles .tab-links {
+  margin-right: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+}
+#about .container .row .about-col-2 .tab-titles .tab-links::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+#about .container .row .about-col-2 .tab-titles .tab-links.active-link::after {
+  width: 50%;
+}
+#about .container .row .about-col-2 .tab-contents ul li {
+  margin: 10px 0;
+}
+#about .container .row .about-col-2 .tab-contents ul li span {
+  font-size: 14px;
+}
+#about .container .row .about-col-2 .tab-contents {
+  display: none;
+}
+#about .container .row .about-col-2 .active-tab {
+  display: block;
+}/*# sourceMappingURL=about.css.map */

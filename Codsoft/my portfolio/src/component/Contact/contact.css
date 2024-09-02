@@ -1,0 +1,63 @@
+#contact .container {
+  padding: 20px 70px;
+  color: rgb(53, 52, 52);
+}
+#contact .container .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#contact .container .row .contact-left {
+  flex-basis: 35%;
+}
+#contact .container .row .contact-left .sub-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+#contact .container .row .contact-left p {
+  margin-top: 20px;
+}
+#contact .container .row .contact-left p i {
+  color: #ff004f;
+  margin-right: 15px;
+  font-size: 20px;
+}
+#contact .container .row .contact-left .socail-icon {
+  margin-top: 30px;
+}
+#contact .container .row .contact-left .socail-icon a {
+  text-decoration: none;
+  color: rgb(33, 35, 36);
+  font-size: 30px;
+  margin-right: 15px;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+#contact .container .row .contact-left .socail-icon a:hover {
+  color: #ff004f;
+  transform: translateY(-5px);
+}
+#contact .container .row .contact-right {
+  flex-basis: 60%;
+}
+#contact .container .row .contact-right form {
+  width: 100%;
+}
+#contact .container .row .contact-right form input,
+#contact .container .row .contact-right form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: #809ca4;
+  padding: 15px;
+  margin: 15px 0;
+  color: rgb(53, 52, 52);
+  font-size: 18px;
+  border-radius: 6px;
+}
+#contact .container .row .contact-right form .btn2 {
+  padding: 14PX 60px;
+  font-size: 20PX;
+  margin-top: 20PX;
+  cursor: pointer;
+}/*# sourceMappingURL=contact.css.map */

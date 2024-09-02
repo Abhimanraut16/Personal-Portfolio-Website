@@ -1,0 +1,24 @@
+#header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/bg.webp");
+  background-size: cover;
+}
+#header .container .nav ul li {
+  margin: 10px 20px;
+}
+#header .container .nav ul li a:hover {
+  color: #00b0f5;
+}
+#header .container .header-text {
+  margin-top: 20%;
+  font-size: 25px;
+}
+#header .container .header-text h1 {
+  font-size: 50px;
+  margin-top: 20px;
+}
+#header .container .header-text p {
+  color: #ff004f;
+  font-weight: 600;
+}/*# sourceMappingURL=navbar.css.map */
